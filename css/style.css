@@ -9,3 +9,17 @@
 	height: 25px;
 	width: 111px;
 }
+.icon {
+	color: white;
+	cursor: pointer;
+}
+/*.search-icon:hover {
+	font-weight: bolder;
+}*/
+.line {
+	border-left: solid 1px;
+	border-color: white;
+	height :50px;
+	width: 1px;
+	margin: 0 10px;
+}
