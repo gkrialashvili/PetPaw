@@ -1,6 +1,11 @@
 .logo {
 	width: 110px;
+	transition: 0.5s;
 }
+.logo:hover {
+	width: 120px;
+}
+
 .header-color {
 	background-color: #00352D;
 	line-height: 106px;
@@ -32,11 +37,13 @@
 .sign {
 	color: white;
 	font-size: 12px;
+	transition:0.3s ease-in-out;
 }
 .sign:hover {
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
+	font-size: 14px;
 
 }
 .house {
