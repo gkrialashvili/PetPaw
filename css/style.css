@@ -8,6 +8,7 @@
 .search {
 	height: 25px;
 	width: 111px;
+	margin-right: 2px;
 }
 .icon {
 	color: white;
@@ -22,4 +23,23 @@
 	height :50px;
 	width: 1px;
 	margin: 0 10px;
+}
+.roboto {
+	font-family: "Roboto-Regular", sans serif;
+
+}
+
+.sign {
+	color: white;
+	font-size: 12px;
+}
+.sign:hover {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+
+}
+.house {
+	width: 20px;
+	cursor: pointer;
 }
