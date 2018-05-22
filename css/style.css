@@ -15,8 +15,13 @@ body {
 }
 .search {
 	height: 25px;
-	width: 111px;
+	width: 400px;
 	margin-right: 2px;
+	background: none;
+	border: none;
+	border-bottom: 1px solid white;
+	color: white;
+	outline: none;
 }
 .icon {
 	color: white;
