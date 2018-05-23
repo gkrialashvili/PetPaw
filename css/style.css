@@ -11,7 +11,7 @@ body {
 
 .header-color {
 	background-color: #00352D;
-	line-height: 106px;
+	padding: 20px;
 }
 .search {
 	height: 25px;
@@ -23,13 +23,19 @@ body {
 	color: white;
 	outline: none;
 }
+
+.lang-li a{
+	display: none;
+	color: #fff;
+	text-decoration: none;
+	font-size: 10px;
+}
+
 .icon {
 	color: white;
 	cursor: pointer;
 }
-/*.search-icon:hover {
-	font-weight: bolder;
-}*/
+
 .line {
 	border-left: solid 1px;
 	border-color: white;
