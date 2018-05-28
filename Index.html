@@ -6,9 +6,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script>
 		$(document).ready(function(){
-		    $('#drop').click(function(){
-		        this.css("display", "none");
-		    });
+			$('#drop').click(function(){
+				this.css("display", "none");
+			});
 		});
 	</script>
 	<link rel="shortcut icon" href="img/logo.svg">
@@ -22,7 +22,7 @@
 
 </head>
 <body>
-	<header class="fixed-top">
+	<header class="d-flex flex-column">
 		<div class=" d-flex flex-row container-fluid header-color justify-content-between align-items-center">
 			<a href="index.html"><img src="img/logo.svg" class="logo" alt="Pet Paw logo"></a>
 			<div class="d-flex align-items-center ">
@@ -36,11 +36,30 @@
 					<a href="#">Eng</a>
 					<a href="#">Geo</a>
 				</div>
-				<span class="line"></span>
+				<div class="line"></div>
 				<a href="#" class="sign roboto mr-2">Sign in/Registration</a>
 				<a href="#" class="sign roboto mr-2">Wishlist</a>
 				<img src="img/house.svg" class="house" alt="Remember">
 			</div>
 		</div>
+		<nav class="ml-5 navbar navbar-expand-lg navbar-light bg-light background-white">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class=" font-color navbar-nav d-flex w-75 justify-content-around">
+					<a class="nav-item nav-link font-weight-bold active hover-style home" href="#">Home</a>
+					<a class="nav-item nav-link hover-style active" href="#">Veterinars</a>
+					<a class="nav-item nav-link hover-style active" href="#">Dogs</a>
+					<a class="nav-item nav-link hover-style active" href="#">Cats</a>
+					<a class="nav-item nav-link hover-style active" href="#">Small Pets</a>
+					<a class="nav-item nav-link hover-style active" href="#">Fishes</a>
+					<a class="nav-item nav-link hover-style active" href="#">Accessories</a>
+					<a class="nav-item nav-link hover-style active" href="#">Contact</a>
+					<a class="nav-item nav-link hover-style active" href="#">About</a>
+				</div>
+			</div>
+		</nav>
+	</header>
 </body>
 </html>

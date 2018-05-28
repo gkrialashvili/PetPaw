@@ -63,3 +63,15 @@ body {
 	width: 20px;
 	cursor: pointer;
 }
+
+.background-white {
+	background-color: #fff !important;
+}
+.font-color a {
+	color: #00352D !important;
+}
+.hover-style:hover {
+	background-color: #00352D;
+	color: #fff !important;
+	border-radius: 25px;
+}
