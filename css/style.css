@@ -1,6 +1,9 @@
 body {
 	 overflow-x: hidden;
 }
+header {
+	font-family: 'Roboto', sans-serif;
+}
 .logo {
 	width: 110px;
 	transition: 0.5s;
@@ -28,9 +31,18 @@ body {
 	display: none;
 	color: #fff;
 	text-decoration: none;
-	font-size: 10px;
+	font-size: 12px;
 }
-
+.show a {
+	display: inline-block;
+}
+.show:hower {
+	background-color: #fff !important;
+}
+.border-b {
+	border-bottom: 1px solid white;
+	padding: 1px 0;
+}
 .icon {
 	color: white;
 	cursor: pointer;
@@ -70,8 +82,11 @@ body {
 .font-color a {
 	color: #00352D !important;
 }
-.hover-style:hover {
+.hover-style ul li a:hover {
 	background-color: #00352D;
 	color: #fff !important;
 	border-radius: 25px;
+}
+.border-no {
+	border: none !important;
 }

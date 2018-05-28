@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#drop").click(function(){
-        $("#drop-down").toggleClass("active");
+    $("#globe").click(function(){
+        $(".lang-li").toggleClass("show");
     });
 });
