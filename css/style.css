@@ -90,3 +90,6 @@ header {
 .border-no {
 	border: none !important;
 }
+.carousel-height {
+	height: 50% !important;
+}
