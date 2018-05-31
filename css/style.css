@@ -129,3 +129,6 @@ header {
 	background-size: contain;
 	border-radius: 25px;
 }
+.margin-no {
+	padding: 0 !important;
+}
