@@ -34,7 +34,10 @@ header {
 	font-size: 12px;
 }
 .show a {
-	display: inline-block;
+	display: inline-block !important;
+}
+.show-log {
+	display: inline-block !important;
 }
 .show:hower {
 	background-color: #fff !important;
@@ -46,6 +49,7 @@ header {
 .icon {
 	color: white;
 	cursor: pointer;
+	width: 25px;
 }
 
 .line {
@@ -69,7 +73,9 @@ header {
 	color: white;
 	font-weight: bold;
 	font-size: 14px;
-
+}
+.log-reg a{
+	display: none;
 }
 .house {
 	width: 20px;
