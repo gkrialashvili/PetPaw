@@ -127,7 +127,7 @@ header {
 .slider2 div {
 	background-repeat: no-repeat;
 	background-size: contain;
-	border-radius: 25px;
+	border-radius: 10px;
 }
 .margin-no {
 	padding: 0 !important;
