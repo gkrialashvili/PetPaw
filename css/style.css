@@ -1,7 +1,6 @@
 body {
 	 overflow-x: hidden;
 }
-
 .logo {
 	width: 110px;
 	transition: 0.5s;
@@ -12,7 +11,6 @@ body {
 .cursor-default h1 {
 	cursor: default;
 }
-
 .header-color {
 	background-color: #00352D;
 	padding: 20px;
@@ -27,7 +25,6 @@ body {
 	color: white;
 	outline: none;
 }
-
 .lang-li a{
 	display: none;
 	color: #fff;
@@ -56,14 +53,12 @@ body {
     background-color: transparent !important;
     border: solid 1px white !important;
     }
-
 .carousel-indicators li {
 	border-radius: 100px !important;
 	width: 20px !important;
 	height: 20px !important;
 	background-color: #fff !important;
 }
-
 .line {
 	border-left: solid 1px;
 	border-color: white;
@@ -74,7 +69,6 @@ body {
 .roboto {
 	font-family: 'Roboto', sans-serif;
 }
-
 .sign {
 	color: white;
 	font-size: 12px;
@@ -191,7 +185,6 @@ body {
   	transform: translate(-50%, -50%);
   	font-size: 23.36px;
   	display: table;
-
 }
 .text{
 	color: #001B17;
