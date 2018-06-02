@@ -37,9 +37,6 @@ body {
 .show-log {
 	display: block !important;
 }
-.show:hower {
-	background-color: #fff !important;
-}
 .border-b {
 	border-bottom: 1px solid white;
 	padding: 1px 0;
