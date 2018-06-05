@@ -148,29 +148,26 @@ body {
 	font-size: 35px;
 	color: #001B17;
 	opacity: 0.7;
-	margin-left: 42px;
 }
 .video {
 	height: 350px;
 	object-fit: cover;
 }
-.pic  {
-	background-position: center;
-	margin: 25px 40px 55px 40px;
-	width: 594px !important;
-	height: 260px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	z-index: 1;
+.pic {
+    background-position: center;
+    margin-right: 0px;
+    width: 930px !important;
+    height: 260px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
 }
 .img-left {
-	background-image: url("../img/dogpicforinf.jpg");
-	margin-right: 20% !important;
-
+    background-image: url("../img/dogpicforinf.jpg");
+    margin-right: 20px !important;
 }
 .img-right {
 	background-image: url("../img/ricky-kharawala-10194-unsplash.jpg");
-	margin-left: 10px !important;
 }
 .insinde-cont {
 	width: 285px;
@@ -191,4 +188,43 @@ body {
 	text-align:center; 
   	vertical-align: middle;
   	display: table-cell;
+}
+.test{
+	width:100%;
+	background-color: yellow;
+
+	height: 318px;
+
+}
+.inside{
+	width:1873px;
+	background-color: red;
+		height: 318px;
+		margin-left: 15px;
+
+
+}
+.box1{
+	width:850px;
+	background-color: green;
+	height: 100%;
+	float:left;
+background-image: url("../img/dogpicforinf.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+
+}
+.box2{
+	width:850px;
+	background-color: green;
+		height: 100%;
+float:left;
+margin-left: 30px;
+	background-image: url("../img/ricky-kharawala-10194-unsplash.jpg");
+	background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
 }
