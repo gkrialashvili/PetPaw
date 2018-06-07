@@ -151,12 +151,12 @@ body {
 }
 .video {
 	height: 350px;
-	object-fit: cover;
+	width: 100%;
+	object-fit: fill;
 }
 .pic {
     background-position: center;
     margin-right: 0px;
-    width: 930px !important;
     height: 260px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -164,7 +164,6 @@ body {
 }
 .img-left {
     background-image: url("../img/dogpicforinf.jpg");
-    margin-right: 20px !important;
 }
 .img-right {
 	background-image: url("../img/ricky-kharawala-10194-unsplash.jpg");
