@@ -117,12 +117,15 @@ body {
 
 .slide-bg {
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center center;
 	background-size: cover;
 	height: 100%;
+
+	
+	
 }
 .slide-bg-1 {
-	background-image: url("../img/jeff-nissen-567973-unsplash.jpg");
+	background-image: url("../img/3.jpg");
 }
 .slide-bg-2 {
 	background-image: url("../img/andre-spieker-238-unsplash.jpg");
@@ -150,9 +153,9 @@ body {
 	opacity: 0.7;
 }
 .video {
-	height: 350px;
 	width: 100%;
-	object-fit: fill;
+	object-fit: cover;
+	height: inherit;
 }
 .pic {
     background-position: center;
@@ -198,8 +201,8 @@ body {
 .inside{
 	width:1873px;
 	background-color: red;
-		height: 318px;
-		margin-left: 15px;
+	height: 318px;
+	margin-left: 15px;
 
 
 }
@@ -208,9 +211,9 @@ body {
 	background-color: green;
 	height: 100%;
 	float:left;
-background-image: url("../img/dogpicforinf.jpg");
-background-size: contain;
-background-repeat: no-repeat;
+	background-image: url("../img/dogpicforinf.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 
@@ -219,11 +222,16 @@ background-repeat: no-repeat;
 .box2{
 	width:850px;
 	background-color: green;
-		height: 100%;
-float:left;
-margin-left: 30px;
+	height: 100%;
+	float:left;
+	margin-left: 30px;
 	background-image: url("../img/ricky-kharawala-10194-unsplash.jpg");
 	background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.video-parent {
+	overflow-y: hidden;
+	height: 318px;
+
 }
