@@ -112,7 +112,7 @@ body {
 .carousel-height {
 	margin-top: 170px !important;
 	height: 400px !important;
-	margin-bottom: 30px !important;
+	margin-bottom: 10px !important;
 }
 
 .slide-bg {
@@ -120,9 +120,6 @@ body {
 	background-position: center center;
 	background-size: cover;
 	height: 100%;
-
-	
-	
 }
 .slide-bg-1 {
 	background-image: url("../img/3.jpg");
@@ -203,8 +200,6 @@ body {
 	background-color: red;
 	height: 318px;
 	margin-left: 15px;
-
-
 }
 .box1{
 	width:850px;
@@ -233,5 +228,17 @@ body {
 .video-parent {
 	overflow-y: hidden;
 	height: 318px;
+
+}
+.homeButton {
+	padding-right: 15px !important;
+	margin-top: 15px !important;
+
+}
+.homeButton button {
+	background-color: transparent !important;
+	border-radius: 12px;
+	color: #00352D !important;
+	border-color: #00352D;
 
 }
