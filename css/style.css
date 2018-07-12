@@ -239,11 +239,6 @@ body {
 	max-width: 61%;
 	margin: 0 !important;
 }
-
-
-
-
-
 /*veterinars page*/
 .foto-secction{
 	margin-top:182px;
@@ -266,8 +261,6 @@ body {
 	float:right;
 	margin-right:50px;
 }
-
-
 /*contact*/
 .header-text{
 	font-size:30px;
@@ -277,7 +270,6 @@ body {
 	color:#808080;
 	font-size:15px;
 }
-
 .form1 {
     display: block;
     width: 100%;
@@ -310,8 +302,6 @@ body {
 	width: 100%;	
     border-radius: 0.70rem;
 }
-
-
 /*Dogs page*/
 
 .main-category {
@@ -363,11 +353,6 @@ body {
 	border: 1px grey;
 	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-
-
-
-
 
 /*media*/
 @media(max-width:768px){
