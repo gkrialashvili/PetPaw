@@ -367,6 +367,9 @@ body {
 .search {
 	display: none;
 }
+.video-container {
+	display: none;
+}
 } 
 .homeButton {
 	padding-right: 15px !important;
