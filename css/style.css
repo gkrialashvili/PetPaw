@@ -5,7 +5,6 @@ body {
 	width: 110px;
 	transition: 0.5s;
 }
-
 .logo:hover {
 	width: 120px;
 }
@@ -113,17 +112,16 @@ body {
 .carousel-height {
 	margin-top: 170px !important;
 	height: 400px !important;
-	margin-bottom: 10px !important;
+	margin-bottom: 30px !important;
 }
 .slide-bg {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	height: 100%;	
-	height: 100%;
 }
 .slide-bg-1 {
-	background-image: url("../img/jeff-nissen-567973-unsplash.jpg");
+	background-image: url("../img/3.jpg");
 }
 .slide-bg-2 {
 	background-image: url("../img/andre-spieker-238-unsplash.jpg");
@@ -241,13 +239,18 @@ body {
 	max-width: 61%;
 	margin: 0 !important;
 }
+
+
+
+
+
 /*veterinars page*/
 .foto-secction{
 	margin-top:182px;
 }
 
 .box-shadow{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
 	background-color:#fff;
 }
 .clear{
@@ -256,13 +259,20 @@ body {
 .doctor-foto{
 	float:left;
 	margin:23px 20px 20px 20px;
-	width:219px;
-	height:191px;
+	max-width:219px;
+	max-height:191px;
+	width:100%;
+
 }
 .read-more{
-	float:right;
-	margin-right:50px;
+	float:right;	
 }
+.read{
+    color:#001B17 !important;
+    text-decoration:none !important;	
+}
+
+
 /*contact*/
 .header-text{
 	font-size:30px;
@@ -272,6 +282,7 @@ body {
 	color:#808080;
 	font-size:15px;
 }
+
 .form1 {
     display: block;
     width: 100%;
@@ -307,6 +318,8 @@ body {
 	width: 100%;	
     border-radius: 0.70rem;
 }
+
+
 /*Dogs page*/
 
 .main-category {
@@ -341,6 +354,7 @@ body {
 .category-filter h2 p {
 	line-height: 1.7px;
 }
+
 .radio label input {
 	line-height: 1.7px;
 	margin-right: 10px;
@@ -348,92 +362,19 @@ body {
 .category-container {
 	margin-top: 20px;
 }
+
 /*Blog*/
 .dog-picture{
 	width:100%;
 }
-.market-product-border {
-	border: 1px grey;
-	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
-}
+
+
+
+
 /*media*/
 @media(max-width:768px){
 .footer-text{
 	width: none;
 	max-width:none;
 	}
-.Filter {
-	display: none;
-}
-.search {
-	display: none;
-}
-.video-container {
-	display: none;
-}
 } 
-.homeButton {
-	padding-right: 15px !important;
-	margin-top: 15px !important;
-}
-.homeButton button {
-	background-color: transparent !important;
-	border-radius: 12px;
-	color: #00352D !important;
-	border-color: #00352D;
-}
-
-/*carousel*/
-h2 {
-  text-align: center;
-  color: #555;
-  margin-bottom: 0;
-}
-
-.carousel {
-  padding: 20px;
-  -webkit-perspective: 500px;
-          perspective: 500px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 182px;
-}
-.carousel > * {
-  flex: 0 0 auto;
-}
-.carousel figure {
-  margin: 0;
-  width: 40%;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  transition: -webkit-transform 0.5s;
-  transition: transform 0.5s;
-  transition: transform 0.5s, -webkit-transform 0.5s;
-}
-.carousel figure img {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 0 0px;
-}
-.carousel figure img:not(:first-of-type) {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-.carousel nav {
-  display: flex;
-  justify-content: center;
-  margin: 20px 0 0;
-}
-.carousel nav button {
-  flex: 0 0 auto;
-  margin: 0 5px;
-  cursor: pointer;
-  color: #333;
-  background: none;
-  border: 1px solid;
-  letter-spacing: 1px;
-  padding: 5px 10px;
-}
