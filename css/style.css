@@ -364,6 +364,9 @@ body {
 .Filter {
 	display: none;
 }
+.search {
+	display: none;
+}
 } 
 .homeButton {
 	padding-right: 15px !important;
