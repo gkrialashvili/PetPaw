@@ -19,12 +19,22 @@
 <body>
 	<header class="fixed-top roboto">
 		<div class=" d-flex flex-row container-fluid header-color justify-content-between align-items-center">
-			<a href="Index.html"><img src="img/logo.svg" class="logo ml-5" alt="Pet Paw logo"></a>  
+			<a href="index.html"><img src="img/logo.svg" class="logo ml-5" alt="Pet Paw logo"></a>  
 			<div class="d-flex align-items-center ">
 				<input type="search" name="search" class="search">
 				<i class="fas fa-search icon"></i>
 			</div>
 			<div class="d-flex align-items-center">
+				<i class="fas fa-globe icon" id="globe"></i>
+				<div class="d-flex flex-column">
+					<div class="lang-li d-flex flex-column ml-2">
+						<a href="#" class="dropdown-item" >Eng</a>
+						<a href="#" class="dropdown-item">Geo</a>
+					</div>
+				</div>
+				<div class="lang d-flex align-items-center mr-2" style="color: white; width: 20px; display: block; flex-grow: 20px;">
+					ENG <i class="fas fa-angle-down" style="width: 20px;"></i>
+				</div>
 				<a href="#"><img src="img/profile-icon.svg" class="log-icon icon ml-3 mr-2" alt="login and Registration icon" id="prof-icon"></a>
 				<div class="log-reg" id="login">
 					<a href="#" class="sign roboto mr-2">Sign in</a>
@@ -39,16 +49,13 @@
 			</button>
 			<div class="collapse navbar-collapse hover-style" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto font-color">
-				<li class="nav-item active ml-5">
-						<a class="nav-link" href="Index.html">Home<span class="sr-only">(current)</span></a>
-					</li>
 					<li class="nav-item active ml-5">
-						<a class="nav-link" href="vet.html">Veterinars</a>
+						<a class="nav-link" href="#">Veterinars <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item dropdown active ml-5">
 						<a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dogs</a>
 						<div class="dropdown-menu border-no" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="dogs.html">Buy</a>
+							<a class="dropdown-item" href="#">Buy</a>
 							<a class="dropdown-item" href="#">Adopt</a>
 							<a class="dropdown-item" href="#">Sell</a>
 						</div>
@@ -85,10 +92,7 @@
 						</div>
 					</li>
 					<li class="nav-item active ml-5">
-						<a class="nav-link" href="blog.html">Blog<span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item active ml-5">
-						<a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item active ml-5">
 						<a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
@@ -97,129 +101,41 @@
 			</div>
 		</nav>
 	</header>
-	<div class="container-fluid main-container">
-		<div id="carouselExampleIndicators" class="carousel slide carousel-height" data-ride="carousel">
-			<ol class="carousel-indicators indcation">
-				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-			</ol>
-			<div class="carousel-inner slide-bg">
-				<div class="carousel-item slide-bg-1 slide-bg active">
-					<div class="container">
-						<div class="carousel-caption cursor-default">
-							<h1>Buy dogs</h1>
-						</div>
-					</div>
-				</div>
-				<div class="carousel-item  slide-bg-2 slide-bg">
-					<div class="container">
-						<div class="carousel-caption cursor-default">
-							<h1>Buy dogs</h1>
-						</div>
-					</div>
-				</div>
-				<div class="carousel-item slide-bg slide-bg-3">
-					<div class="container">
-						<div class="carousel-caption cursor-default">
-							<h1>Buy dogs</h1>
-						</div>
-					</div>
-				</div>
-				<div class="carousel-item slide-bg slide-bg-4">
-					<div class="container">
-						<div class="carousel-caption cursor-default">
-							<h1>Buy dogs</h1>
-						</div>
-					</div>
-				</div>
-			</div>
-			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			</a>
-			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			</a>
-		</div>
-		<div class="buttonContainer homeButton roboto d-flex justify-content-end">
-			<button type="button" class="btn btn-primary btn-md">Lorem</button>  
-		</div>
-	</div>
-	<div class="container-fluid text-btw roboto">
-		<h2> Lorem ipsum dolor sit amet, consectetuer</h2>
-	</div>		
-	</div>
-	<div class="container-fluid col-height">
-		<div class="row">
-			<div class="col-md-6 col-12">
-				<div class="img-left pic mt-1">
-					<div class="insinde-cont roboto">
-						<p class="text">Lorem ipsum dolor sit Lorem ipsum</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 col-12">
-				<div class="img-right pic mt-1">
-					<div class="insinde-cont roboto">
-						<p class="text">Lorem ipsum dolor sit Lorem ipsum</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="buttonContainer homeButton roboto d-flex justify-content-end">
-			<button type="button" class="btn btn-primary btn-md">Lorem</button>  
-		</div>
-		<div class="row text-btw roboto">
-			<div class="col-12">
-				<h2> Lorem ipsum dolor sit amet, consectetuer ipsum dome</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-12 video-parent">
-				<VIDEO class="w-100 video" autoplay muted loop>
-					<source class="VideoBanner" src="img/video.mp4" type="video/mp4">
-					</VIDEO>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="container-fluid text-btw roboto">
-		<h2> Lorem ipsum dolor sit amet, consectetuer</h2>
-	</div>
-	<div class="container-fluid col-height">
-		<div class="row">
-			<div class="col-md-6 col-12">
-				<div class="pic mt-1" style="background-color: #005E3C">
-					<div class="row">
-						<div class="img-veterinar-1 col-4">
-						</div>
-						<div class="col-6 roboto">
-							<h3 class="footer-color mt-4">Lorem ipsum dolor</h3>
-							<p class="mt-4 footer-color">Lorem ipsum dolor sit Lorem ipsum Lorem ipsum dolor sit Lorem ipsum Lorem ipsum dolor sit Lorem ipsum</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 col-12">
-				<div class="pic mt-1" style="background-color: #005E3C">
-					<div class="row">
-						<div class="img-veterinar-1 col-4">
-						</div>
-						<div class="col-6 roboto">
-							<h3 class="footer-color mt-4">Lorem ipsum dolor</h3>
-							<p class="mt-4 footer-color">Lorem ipsum dolor sit Lorem ipsum Lorem ipsum dolor sit Lorem ipsum Lorem ipsum dolor sit Lorem ipsum</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-			<div class="buttonContainer homeButton roboto d-flex justify-content-end">
-				<button type="button" class="btn btn-primary btn-md">Lorem</button>  
-			</div>
-	</div>
+
+<div class="foto-secction container-fluid">
+	<div class="box-shadow">
+      <form class="contact-form container" style="padding-top:100px; padding-bottom:180px";>
+         <h3 class="header-text float-left pb-3"> Lorem Ipsum </h3>
+         <h3 class="header-text float-right pb-3"> Lorem Ipsum </h3>
+                <div class="form-group">
+                    <input type="text" class="form-control form1 text-center" id="name" placeholder="Lorem Ipsum" name="name">
+                </div>
+
+                <div class="form-group">
+                    <input type="email" class="form-control form1 text-center" id="email" placeholder="Lorem Ipsum" name="email">
+                </div>
+
+                <div class="form-group">
+                    <input type="email" class="form-control form1 text-center" id="email" placeholder="Lorem Ipsum" name="email">
+                </div>
+
+                <div class="form-group">
+                    <input type="email" class="form-control form1 text-center" id="email" placeholder="Lorem Ipsum" name="email">
+                </div>
+
+                <div class="form-group">
+                    <input type="email" class="form-control form1 text-center" id="email" placeholder="Lorem Ipsum" name="email">
+                </div>
+
+                <div class="form-group">
+                    <input type="email" class="form-control form1 text-center" id="email" placeholder="Lorem Ipsum" name="email">
+                </div>
+
+                <button type="submit" class="btn btn-primary send-bg ml-auto d-flex mt-5">Lorem Ipsum</button>
+      </form>
+  </div>
+</div>
+
 <!-- Footer -->
 <footer class="page-footer font-small unique-color-dark mt-4">
   <!-- Footer Links -->
@@ -234,12 +150,11 @@
         <div class="footer-text-cont">
        		<p class="footer-text footer-color">Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
        		</p>
-    	</div>
+    	</div> 
       </div>
-      <!-- Grid column -->
+
       <!-- Grid column -->
       <div class="col-lg-4 col-md-4 col-sm-12 mx-auto mb-4">
-        <!-- Links -->
         <h6 class="text-uppercase font-weight-bold footer-color">Products</h6>
         <hr class="mb-4 mt-0 d-inline-block mx-auto footer-color" style="width: 45px; background-color: white">
         <p>
@@ -255,9 +170,9 @@
           <a href="#!" class="footer-color">Bootstrap Angular</a>
         </p>
       </div>
-      <!-- Grid column -->
+
+       <!-- Grid column -->
       <div class="col-lg-4 col-md-4 col-sm-12 mx-auto mb-md-0 mb-4">
-        <!-- Links -->
         <h6 class="text-uppercase font-weight-bold footer-color">Contact</h6>
         <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 45px; background-color: white">
         <p class="footer-color">
@@ -273,8 +188,6 @@
     </div>
     <!-- Grid row -->
   </div>
-  <!-- Footer Links -->
 </footer>
-<!-- Footer -->
 </body>
 </html>

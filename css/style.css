@@ -246,7 +246,7 @@ body {
 }
 
 .box-shadow{
-	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	background-color:#fff;
 }
 .clear{
@@ -277,10 +277,11 @@ body {
     padding: 0.800rem 0.75rem;
     font-size: 1rem;
     line-height: 1.5;
-    color: #808080;
+   /* color: #808080;*/
     background-clip: padding-box;
     border: 1px solid #808080;
     border-radius: 0.70rem;
+
 }
 .contact-form{
     width: 100%;
@@ -297,6 +298,8 @@ body {
     width: 100%;
     max-width: 500px;
     margin: auto;
+    margin-top:80px;
+    padding-bottom:180px;
 }
 .form1-bg{
 	background-color:#808080;
@@ -311,6 +314,7 @@ body {
 	padding-left: 0 !important;
 	padding-right: 0 !important;
 	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .Filter {
 	padding-left: 35px;
