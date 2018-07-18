@@ -268,15 +268,20 @@ body {
 	float:right;	
 }
 .read{
-    color:#001B17 !important;
-    text-decoration:none !important;	
+    color:#001B17 !important;	
 }
-
+a{
+	text-decoration:none !important;	
+}
 
 /*contact*/
 .header-text{
 	font-size:30px;
-	color:#808080;
+	color:#606060;
+}
+.header-text2{
+	font-size:30px;
+	color:#444444;
 }
 .text-in-contact{
 	color:#808080;
@@ -293,7 +298,6 @@ body {
     background-clip: padding-box;
     border: 1px solid #808080;
     border-radius: 0.70rem;
-
 }
 .contact-form{
     width: 100%;
@@ -308,27 +312,68 @@ body {
 }
 .contact-form2{
     width: 100%;
-    max-width: 500px;
+    max-width: 300px;
     margin: auto;
-    margin-top:80px;
     padding-bottom:180px;
 }
-.form1-bg{
-	background-color:#808080;
+.form1-bg1{
+	background-color:#DA402C;
 	width: 100%;	
     border-radius: 0.70rem;
+    height:50px;
 }
+.form1-bg2{
+	background-color:#3B5998;
+	width: 100%;	
+    border-radius: 0.70rem;
+    height:50px;
+}
+.validation-m {
+    margin-left: 5px;
+    font-size: 18px;
+    color: #CCD7D5;
+}
+.text-in-contact-login{
+	font-size:30px;
+	color:#444444;
+}
+.text-in-contact-login2{
+	font-size:19px;
+	color:#606060;
+}
+.registering-text{
+	color:#606060;
+	font-size:19px;
+}
+.text-login{
+	margin-top:80px;
+}
+#icon{
+	background-image:url(../img/googleplus.svg); 
+    background-repeat: no-repeat; 
+    background-position: 15px 15px;
+    cursor: pointer;
+    background-size: 50px 18px;
+}
+
+#icon2{
+	background-image:url(../img/facebok.svg); 
+    background-repeat: no-repeat; 
+    background-position: 15px 15px;
+    cursor: pointer;
+    background-size: 50px 18px;
+}
+
+
 
 
 /*Dogs page*/
-
 .main-category {
 	margin-top: 182px;
 	height: 100%;
 	padding-left: 0 !important;
 	padding-right: 0 !important;
 	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 .Filter {
 	padding-left: 35px;
@@ -363,10 +408,16 @@ body {
 	margin-top: 20px;
 }
 
+
+
+
 /*Blog*/
 .dog-picture{
 	width:100%;
 }
+
+
+
 
 
 
