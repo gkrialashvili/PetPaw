@@ -294,10 +294,18 @@ a{
     padding: 0.800rem 0.75rem;
     font-size: 1rem;
     line-height: 1.5;
-   /* color: #808080;*/
     background-clip: padding-box;
     border: 1px solid #808080;
     border-radius: 0.70rem;
+    cursor:pointer;
+}
+.design{
+	border: 1px solid #808080 !important;
+    border-radius: 0.70rem !important;
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    background-clip: padding-box !important;
+    padding: 0.800rem 0.75rem !important;
 }
 .contact-form{
     width: 100%;
