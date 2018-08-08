@@ -4,6 +4,7 @@ $(document).ready(function(){
     });
 });
 
+
 $(document).ready(function(){
     $("#prof-icon").click(function(){
         $(".log-reg").toggleClass("show");
